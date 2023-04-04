@@ -47,7 +47,8 @@ namespace ThietKeMenuChoUngDung
                     Environment.Exit(0);
                     break;
                 default:
-                    Console.WriteLine("No choice!");
+                    Console.WriteLine("Không có trong danh sách menu!");
+                    Console.WriteLine("=============================");
                     break;
                 }
             }
